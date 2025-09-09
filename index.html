@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffe Website |</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header>
@@ -129,8 +131,52 @@
                 </ul>
             </div>
          </section>
+
+
+         <!-- Testimonials  -->
+         <section class="testimonials-section">
+            <h2 class="section-title">Testemunhas</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-slide">
+                        <li class="testimonial swiper-slide">
+                                <img src="assets/user-1.jpg" alt="User" class="user-image">
+                                <h3 class="name">Isabela Johnson</h3>
+                                <i class="feedback">"Adorei o café torrado francês. Perfeitamente equilibrado e rico. Vou pedir novamente!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="assets/user-2.jpg" alt="User" class="user-image">
+                                <h3 class="name">James Wilson</h3>
+                                <i class="feedback">"Ótima mistura de espresso! Sabor suave e forte. Envio rápido também!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="assets/user-4.jpg" alt="User" class="user-image">
+                                <h3 class="name">Emily Harris</h3>
+                                <i class="feedback">"Excelente qualidade! Grãos frescos e entrega rápida. Recomendo muito."</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="assets/user-3.jpg" alt="User" class="user-image">
+                                <h3 class="name">Michael Brown</h3>
+                                <i class="feedback">"Fantástico sabor de mocha, fresco e aromático. Produto enviado com todo o cuidado.""</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="assets/user-5.jpg" alt="User" class="user-image">
+                                <h3 class="name">Anthony Thompson</h3>
+                                <i class="feedback">"O melhor café descafeinado que já experimentei! Suave e saboroso. Chegou rapidamente."</i>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+         </section>
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
